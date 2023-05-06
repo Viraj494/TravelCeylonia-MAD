@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Travel Ceylonia</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="welcome_main_text">Visit Sri Lanka</string>
+    <string name="welcome_first_description">Sri Lanka is a Beatiful Country</string>
+    <string name="welcome_visitnow_button">Visit Now</string>
+    <string name="welcome_second_description">Visit today, we have the best offers for you</string>
+
+
+    <string name="fire">Runi is a genius.Yo Yo</string>
+    <string name="cry">life is hard"</string>
+    <string name="impressed">Kindness is beautiful</string>
+    <string name="annoyed">Mad nan pissuwak yaalu</string>
+    <string name="kiss">sharing love from runi</string>
+    <string name="mocking">Get up and do the Mad.your clock is ticking.</string>
+    <string name="party">Wake up to reality. nothing ever goes as planned in this cursed world</string>
+</resources>
