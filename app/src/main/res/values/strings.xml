@@ -9,17 +9,14 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
-    <string name="welcome_main_text">Visit Sri Lanka</string>
-    <string name="welcome_first_description">Sri Lanka is a Beatiful Country</string>
+
+    <!-- Welcome page strings -->
+    <string name="welcome_main_text">Explore the wonders of Sri Lanka</string>
     <string name="welcome_visitnow_button">Visit Now</string>
-    <string name="welcome_second_description">Visit today, we have the best offers for you</string>
+    <string name="welcome_second_description">Discover and book accommodations, tour guides, and transportation services with ease through our app</string>
 
 
-    <string name="fire">Runi is a genius.Yo Yo</string>
-    <string name="cry">life is hard"</string>
-    <string name="impressed">Kindness is beautiful</string>
-    <string name="annoyed">Mad nan pissuwak yaalu</string>
-    <string name="kiss">sharing love from runi</string>
-    <string name="mocking">Get up and do the Mad.your clock is ticking.</string>
-    <string name="party">Wake up to reality. nothing ever goes as planned in this cursed world</string>
+    <string name="dash_des">Welcome to the beautiful island nation of Sri Lanka, where culture, history, and natural beauty come together to create an unforgettable experience.</string>
+    <string name="fire">a</string>
+
 </resources>
