@@ -14,11 +14,10 @@ class MainActivity : AppCompatActivity() {
             supportActionBar!!.hide()
         }
 
+        var log : Button = findViewById<Button>(R.id.transportSectionButton)
 
-        var accom : Button = findViewById<Button>(R.id.accomodationSectionButton)
-
-        accom.setOnClickListener{
-            val intent = Intent(this, AccommodationActivity::class.java)
+        log.setOnClickListener{
+            val intent = Intent(this, TransportActivity::class.java)
             // start your next activity
             startActivity(intent)
         }

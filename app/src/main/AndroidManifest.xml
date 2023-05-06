@@ -12,25 +12,41 @@
         android:theme="@style/Theme.TravelCeylonia"
         tools:targetApi="31">
         <activity
-            android:name=".EditAcBookingActivity"
+            android:name=".EditBookingActivity"
             android:exported="false" />
         <activity
-            android:name=".BookHotelActivity"
+            android:name=".ManageBookingActivity"
             android:exported="false" />
         <activity
-            android:name=".ManageBookingAcActivity"
+            android:name=".BookingDetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".BookNowAcActivity"
+            android:name=".BookVehicleActivity"
             android:exported="false" />
         <activity
-            android:name=".AccommodationActivity"
-            android:exported="false" android:parentActivityName=".MainActivity">
+            android:name=".VehicleDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".TransportActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mad.travelceylonia.TransportActivity" />
+        </activity>
+        <activity
+            android:name=".BookNowActivity"
+            android:exported="false"
+            android:parentActivityName=".TransportActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mad.travelceylonia.TransportActivity" />
+        </activity>
+        <activity
+            android:name=".TransportActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.mad.travelceylonia.MainActivity" />
         </activity>
-
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />
