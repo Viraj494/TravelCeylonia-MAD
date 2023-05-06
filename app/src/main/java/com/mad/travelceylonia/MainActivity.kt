@@ -15,10 +15,10 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        var accom : Button = findViewById<Button>(R.id.accomodationSectionButton)
+        var tour : Button = findViewById<Button>(R.id.tourGuideSectionButton)
 
-        accom.setOnClickListener{
-            val intent = Intent(this, AccommodationActivity::class.java)
+        tour.setOnClickListener{
+            val intent = Intent(this, TourGuideActivity::class.java)
             // start your next activity
             startActivity(intent)
         }
