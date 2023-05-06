@@ -1,54 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
-
-    <application
-        android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.pasindusapplication.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.TravelCeylonia"
-        tools:targetApi="31">
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.pasindusapplication.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
         <activity
-            android:name=".EditAcBookingActivity"
-            android:exported="false" />
+            android:name="com.pasindusapplication.app.modules.selectpaymentmethod.ui.SelectPaymentMethodActivity" android:screenOrientation="portrait"/>
         <activity
-            android:name=".BookHotelActivity"
-            android:exported="false" />
+            android:name="com.pasindusapplication.app.modules.confirmpaymentdetails.ui.ConfirmPaymentDetailsActivity" android:screenOrientation="portrait"/>
         <activity
-            android:name=".ManageBookingAcActivity"
-            android:exported="false" />
-        <activity
-            android:name=".BookNowAcActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AccommodationActivity"
-            android:exported="false" android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.mad.travelceylonia.MainActivity" />
-        </activity>
-
-        <activity
-            android:name=".RegisterActivity"
-            android:exported="false" />
-        <activity
-            android:name=".WelcomeActivity"
+            android:name="com.pasindusapplication.app.modules.addpaymentdetails.ui.AddPaymentDetailsActivity" android:screenOrientation="portrait"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent-filter>
+        </activity>
+        <activity android:exported="true"
+            android:name="com.pasindusapplication.app.modules.selectpaymentmethodone.ui.SelectPaymentMethodOneActivity" android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
+            android:name="com.pasindusapplication.app.modules.confirmpaymentdetailsone.ui.ConfirmPaymentDetailsOneActivity" android:screenOrientation="portrait"/>
     </application>
-
 </manifest>

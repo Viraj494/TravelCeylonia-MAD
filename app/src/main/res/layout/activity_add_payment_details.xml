@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="addPaymentDetailsVM" type="com.pasindusapplication.app.modules.addpaymentdetails.data.viewmodel.AddPaymentDetailsVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStack"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700"
+
+        >
+        <FrameLayout android:id="@+id/frameAddPaymentDet"
+            android:layout_gravity="start"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" style="@style/groupStylewhite_A700"
+            android:background="#54BAB9"
+            >
+            <FrameLayout android:id="@+id/frameStacke6b018a99351570"
+                android:layout_gravity="top|start"
+                android:layout_height="@dimen/_658pxv"
+                android:layout_marginBottom="@dimen/_10pxv" android:layout_width="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/linearColumnenteryourpaym"
+                    android:layout_gravity="top|center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_77pxv"
+                    android:layout_marginEnd="@dimen/_56pxh"
+                    android:layout_marginStart="@dimen/_56pxh"
+                    android:layout_marginTop="@dimen/_77pxv"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtEnterYourPaym"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{addPaymentDetailsVM.addPaymentDetailsModel.txtEnterYourPaym}"
+                        style="@style/txtInterbold16" tools:text="@string/msg_enter_your_paym"/>
+
+                    <EditText
+                        android:id="@+id/etGroupTwenty"
+                        style="@style/etSolidRounded"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="@dimen/_47pxv"
+                        android:background="@drawable/rectangle_bg_bluegray_100_radius_10"
+                        android:ellipsize="end"
+                        android:hint="@string/lbl_enter_name"
+                        android:inputType="text"
+                        android:paddingStart="@dimen/_22pxh"
+                        android:paddingTop="@dimen/_7pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingBottom="@dimen/_6pxv"
+                        android:singleLine="true"
+                        android:text="@={addPaymentDetailsVM.addPaymentDetailsModel.etGroupTwentyValue}"
+                        android:textColorHint="@color/black_900"
+                        tools:ignore="Autofill" />
+
+                    <EditText
+                        android:id="@+id/etGroupNineteen"
+                        style="@style/etSolidRounded"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="@dimen/_27pxv"
+                        android:background="@drawable/rectangle_bg_bluegray_100_radius_10"
+                        android:ellipsize="end"
+                        android:hint="@string/lbl_enter_email"
+                        android:inputType="textEmailAddress"
+                        android:paddingStart="@dimen/_21pxh"
+                        android:paddingTop="@dimen/_7pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingBottom="@dimen/_6pxv"
+                        android:singleLine="true"
+                        android:text="@={addPaymentDetailsVM.addPaymentDetailsModel.etGroupNineteenValue}"
+                        android:textColorHint="@color/black_900"
+                        tools:ignore="Autofill" />
+
+                    <EditText
+                        android:id="@+id/etGroupEighteen"
+                        style="@style/etSolidRounded"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="@dimen/_27pxv"
+                        android:background="@drawable/rectangle_bg_bluegray_100_radius_10"
+                        android:ellipsize="end"
+                        android:hint="@string/msg_enter_phone_num"
+                        android:inputType="phone"
+                        android:paddingStart="@dimen/_21pxh"
+                        android:paddingTop="@dimen/_6pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingBottom="@dimen/_7pxv"
+                        android:singleLine="true"
+                        android:text="@={addPaymentDetailsVM.addPaymentDetailsModel.etGroupEighteenValue}"
+                        android:textColorHint="@color/black_900"
+                        tools:ignore="Autofill" />
+
+                    <EditText
+                        android:id="@+id/etGroupSeventeen"
+                        style="@style/etSolidRounded"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="@dimen/_27pxv"
+                        android:background="@drawable/rectangle_bg_bluegray_100_radius_10"
+                        android:ellipsize="end"
+                        android:hint="@string/lbl_enter_amount"
+                        android:inputType="text"
+                        android:paddingStart="@dimen/_21pxh"
+                        android:paddingTop="@dimen/_6pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingBottom="@dimen/_7pxv"
+                        android:singleLine="true"
+                        android:text="@={addPaymentDetailsVM.addPaymentDetailsModel.etGroupSeventeenValue}"
+                        android:textColorHint="@color/black_900"
+                        tools:ignore="Autofill" />
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnProceed"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_43pxv"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="@dimen/_11pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_11pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_proceed"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRounded" tools:text="@string/lbl_proceed"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnBack"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_17pxv"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="@dimen/_11pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_11pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_back"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRounded_1" tools:text="@string/lbl_back"/>
+
+                    <ImageView
+                        android:id="@+id/imageE6b018a99351570"
+                        imageRes="@{@drawable/img_e6b018a99351570}"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_640pxv"
+                        android:layout_gravity="start"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:scaleType="fitXY"
+                        tools:ignore="ContentDescription"
+                        tools:src="@drawable/img_e6b018a99351570" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frameStackundrawbitcoin"
+                style="@style/groupStyleteal_900cornerRadius"
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:layout_gravity="bottom|start"
+                android:layout_marginTop="@dimen/_10pxv">
+
+                <ImageView
+                    android:id="@+id/imageUndrawbitcoin"
+                    android:layout_width="@dimen/_206pxh"
+                    android:layout_height="@dimen/_77pxh"
+                    android:layout_gravity="top|center"
+                    android:layout_marginStart="@dimen/_77pxh"
+                    android:layout_marginTop="@dimen/_12pxv"
+                    android:layout_marginEnd="@dimen/_77pxh"
+                    android:layout_marginBottom="@dimen/_12pxv"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_undrawbitcoin"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_undrawbitcoin" />
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+</layout>

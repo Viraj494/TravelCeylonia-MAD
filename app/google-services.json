@@ -1,92 +1,34 @@
 {
   "project_info": {
-    "project_number": "44720019452",
-    "firebase_url": "https://vehicle-booking-2c5f0-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "vehicle-booking-2c5f0",
-    "storage_bucket": "vehicle-booking-2c5f0.appspot.com"
+    "project_number": "789849061785",
+    "firebase_url": "https://tourism-management-3142a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tourism-management-3142a",
+    "storage_bucket": "tourism-management-3142a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:44720019452:android:1805b9f398175330290479",
+        "mobilesdk_app_id": "1:789849061785:android:66b4c99f74cc8c43dc3b08",
         "android_client_info": {
-          "package_name": "com.mad.crud"
+          "package_name": "com.pasindusapplication.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "44720019452-300oe84iup2frda3qi5t5mcopbpkac0o.apps.googleusercontent.com",
+          "client_id": "789849061785-s3g7cogfu7ur4qq1ephhgutg7r7bt9cc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCsOw7-RFlP1SqHDBxQP9N0pYOPQEDHcos"
+          "current_key": "AIzaSyCQqtFjOp7tyvb-E_uEqFUGsnwJXgZVcO8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "44720019452-300oe84iup2frda3qi5t5mcopbpkac0o.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:44720019452:android:be9473d57884c306290479",
-        "android_client_info": {
-          "package_name": "com.mad.travelceylonia"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "44720019452-300oe84iup2frda3qi5t5mcopbpkac0o.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCsOw7-RFlP1SqHDBxQP9N0pYOPQEDHcos"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "44720019452-300oe84iup2frda3qi5t5mcopbpkac0o.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:44720019452:android:4b204b0f11918ef1290479",
-        "android_client_info": {
-          "package_name": "com.mad.vehiclereserve"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "44720019452-300oe84iup2frda3qi5t5mcopbpkac0o.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCsOw7-RFlP1SqHDBxQP9N0pYOPQEDHcos"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "44720019452-300oe84iup2frda3qi5t5mcopbpkac0o.apps.googleusercontent.com",
+              "client_id": "789849061785-s3g7cogfu7ur4qq1ephhgutg7r7bt9cc.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="selectPaymentMethodOneVM" type="com.pasindusapplication.app.modules.selectpaymentmethodone.data.viewmodel.SelectPaymentMethodOneVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackrectangleone"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <FrameLayout android:id="@+id/frameSelectPayment"
+            android:layout_gravity="start"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+            <FrameLayout android:id="@+id/frameStack5789801"
+                android:layout_gravity="start"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_1pxv" android:layout_width="match_parent">
+                <ImageView android:id="@+id/image5789801"
+                    android:layout_gravity="start"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_5789801}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_5789801"/>
+                <LinearLayout
+                    android:id="@+id/linearColumnselectyourpay"
+                    android:layout_gravity="top|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_78pxv"
+                    android:layout_marginEnd="@dimen/_57pxh"
+                    android:layout_marginStart="@dimen/_57pxh"
+                    android:layout_marginTop="@dimen/_78pxv"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtSelectYourPay"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{selectPaymentMethodOneVM.selectPaymentMethodOneModel.txtSelectYourPay}"
+                        style="@style/txtInterbold16" tools:text="@string/msg_select_your_pay"/>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerListrefresh"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_64pxv"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        itemSpace="@{@dimen/_38pxh}" tools:itemCount="2" tools:listitem="@layout/row_listrefresh"/>
+                </LinearLayout>
+            </FrameLayout>
+            <View
+                android:background="@drawable/rectangle_bg_teal_900_radius_tl_50_tr_50"
+                android:id="@+id/viewRectangleOne"
+                android:layout_gravity="bottom|start"
+                android:layout_height="@dimen/_170pxv"
+                android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_360pxh"/>
+            <ImageView android:id="@+id/imageUndrawprofile"
+                android:layout_gravity="bottom|end"
+                android:layout_height="@dimen/_200pxh"
+                android:layout_marginBottom="@dimen/_96pxv"
+                android:layout_marginEnd="@dimen/_14pxh"
+                android:layout_marginStart="@dimen/_14pxh"
+                android:layout_marginTop="@dimen/_96pxv"
+                android:layout_width="@dimen/_304pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_undrawprofile"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_undrawprofile"/>
+        </FrameLayout>
+    </FrameLayout>
+</layout>
