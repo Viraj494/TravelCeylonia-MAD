@@ -15,11 +15,6 @@
     <string name="welcome_second_description">Visit today, we have the best offers for you</string>
 
 
-    <string name="fire">Runi is a genius.Yo Yo</string>
-    <string name="cry">life is hard"</string>
-    <string name="impressed">Kindness is beautiful</string>
-    <string name="annoyed">Mad nan pissuwak yaalu</string>
-    <string name="kiss">sharing love from runi</string>
-    <string name="mocking">Get up and do the Mad.your clock is ticking.</string>
-    <string name="party">Wake up to reality. nothing ever goes as planned in this cursed world</string>
+    <string name="fire">Description</string>
+   
 </resources>
