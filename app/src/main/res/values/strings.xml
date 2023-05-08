@@ -13,8 +13,26 @@
     <string name="welcome_first_description">Sri Lanka is a Beatiful Country</string>
     <string name="welcome_visitnow_button">Visit Now</string>
     <string name="welcome_second_description">Visit today, we have the best offers for you</string>
+    <string name="editBtn">edit</string>
+    <string name="deleteBtn">edit</string>
+    <string name="reserveHotel">Reserve Your Hotel</string>
+    <string name="fromDate">From Date</string>
+    <string name="toDate">To Date</string>
+    <string name="noOfRooms">No of Rooms</string>
+    <string name="calcCost">Calculate Cost</string>
+    <string name="confirmBook">Confirm Booking</string>
+    <string name="hotelPageDescription">Due to the current economic crisis in Sri Lanka and due to the past covid-19 season tourists industry degraded vastly.
+        As a solution we created an app which can attract tourists to our country.
+        Basically tourists can discover accomodation , tourist guides and etc through this app easily.
+        This could help to attract more tourists to our country and on the other hand tourist income will help our country to get rid of this economic crisis.</string>
+    <string name="bookNow">Book Hotels</string>
+    <string name="viewBookings">My Bookings</string>
+    <string name="changeBooking">Update Your Booking</string>
+    <string name="updateBooking">Update Booking</string>
+    <string name="login">Login</string>
+    <string name="noAccount">No Account? Register Now</string>
+    <string name="register">Register</string>
+    <string name="hvAccount">Already Have an Account? Login Now</string>
 
 
-    <string name="fire">Description</string>
-   
 </resources>
