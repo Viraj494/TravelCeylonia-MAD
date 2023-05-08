@@ -28,7 +28,8 @@
                 android:layout_height="wrap_content"
                 android:text="TextView"
                 android:textColor="@color/black"
-                android:textSize="16sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/bookedDateRangeA"
@@ -70,13 +71,13 @@
                 android:id="@+id/editBookingButtonA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Edit" />
+                android:text="@string/editBtn" />
 
             <Button
                 android:id="@+id/deleteBookingButtonA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Delete" />
+                android:text="@string/deleteBtn" />
         </LinearLayout>
     </LinearLayout>
 

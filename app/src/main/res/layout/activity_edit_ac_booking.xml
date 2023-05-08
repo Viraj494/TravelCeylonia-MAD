@@ -23,9 +23,11 @@
             android:id="@+id/textView66"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Change your booking date"
+            android:text="@string/changeBooking"
+            android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="24sp" />
+            android:textSize="28sp"
+            android:textStyle="bold" />
         <TextView
             android:id="@+id/hotelNameEdit"
             android:layout_width="match_parent"
@@ -39,8 +41,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="From Date"
-            android:textSize="16sp" />
+            android:text="@string/fromDate"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTextDateFromEditA"
@@ -54,8 +58,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
-            android:text="To Date"
-            android:textSize="16sp" />
+            android:text="@string/toDate"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTextDateToEditA"
@@ -76,7 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
-            android:text="Calculate Cost" />
+            android:text="@string/calcCost" />
 
         <TextView
             android:id="@+id/costTxtEditA"
@@ -93,7 +99,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="Update Booking" />
+            android:text="@string/updateBooking" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

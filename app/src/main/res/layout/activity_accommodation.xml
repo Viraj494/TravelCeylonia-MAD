@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AccommodationActivity">
+    tools:context=".AccommodationActivity"
+    android:background="@drawable/hotel_background">
 
     <LinearLayout
         android:layout_width="409dp"
@@ -30,13 +31,17 @@
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_height="415dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
             android:layout_marginRight="20dp"
-            android:text="Due to the current economic crisis in Sri Lanka and due to the past covid-19 season tourists industry degraded vastly. As a solution we created an app which can attract tourists to our country. Basically tourists can discover accomodation , tourist guides and etc through this app easily. This could help to attract more tourists to our country and on the other hand tourist income will help our country to get rid of this economic crisis."
-            android:textColor="@color/black"
-            android:paddingLeft="10dp"/>
+            android:paddingLeft="10dp"
+            android:text="@string/hotelPageDescription"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:shadowRadius="20"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -52,7 +57,7 @@
                 android:layout_marginTop="25dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:text="Book Now" />
+                android:text="@string/bookNow" />
 
             <Button
                 android:id="@+id/viewBookingButtonA"
@@ -62,7 +67,7 @@
                 android:layout_marginTop="25dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:text="View Bookings" />
+                android:text="@string/viewBookings" />
         </LinearLayout>
 
     </LinearLayout>
