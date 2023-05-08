@@ -40,7 +40,7 @@
             android:textColor="#ffffff"
             android:textSize="18dp"
             android:textStyle="italic"
-            android:text="Have a safe trip with our comfortable vehicles" />
+            android:text="Rent a vehicle for your trip and have a safe ride" />
 
         <Button
             android:id="@+id/bookNowButton"
